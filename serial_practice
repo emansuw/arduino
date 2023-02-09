@@ -1,0 +1,16 @@
+/*
+Serial practice
+*/
+
+void setup() {
+  Serial.begin(9600);
+  Serial.?("hello first line");
+  Serial.?(" am i on the first or second line");
+  Serial.?("am i on the first or second line");
+  Serial.?(" which line am i on though?");
+  Serial.?("huh?");
+}
+
+void loop() {
+
+}
