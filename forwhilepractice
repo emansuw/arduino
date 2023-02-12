@@ -1,0 +1,32 @@
+/*
+For and While loop practice
+*/
+
+void setup() {
+  Serial.begin(9600);
+   forloop();
+   whileloop();
+}
+
+
+void forloop() {
+  String fruits[] = {"apple", "banana", "orange", "kiwi", "pear"};
+  Serial.println("For loop");
+  for (int ? = ?; i < ?; i? ){
+      Serial.println(fruits[i]);
+  }
+}
+
+void whileloop() {
+  String fruits[] = {"apple", "banana", "orange", "kiwi", "pear"};
+  Serial.println("While loop"); 
+  int k = ?;
+  while(k < ?) {
+    Serial.println(fruits[k]);
+    ?;
+  }
+}
+
+void loop() {
+    
+}
