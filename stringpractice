@@ -1,0 +1,36 @@
+/*
+String library practice
+*/
+
+
+void setup() {
+  Serial.begin(9600);
+  String str = String("AVELA is awesome");
+  //Print out the length of the str String
+  Serial.print("String length:");
+  Serial.println(?); //it should be 16
+  
+  
+  //Check if these strings are equal
+  String str1 = String("AVELA");
+  String str2 = String("avela");
+  Serial.print("Are they equal? ");
+  Serial.println(?.?(str2));
+  
+  //add these 2 string together
+  String str3 = String("I love coding ");
+  String str4 = String("in arduino ");
+  ?.?(?);
+  Serial.print(str3);
+  Serial.println(str3.equals("I love coding in arduino "));
+    
+}
+
+
+
+
+
+
+void loop() {
+    
+}
